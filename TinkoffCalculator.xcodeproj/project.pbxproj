@@ -16,6 +16,7 @@
 		CE2525AA2B62CDF1008EEFFC /* TinkoffCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2525A92B62CDF1008EEFFC /* TinkoffCalculatorTests.swift */; };
 		CE2525B42B62CDF1008EEFFC /* TinkoffCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2525B32B62CDF1008EEFFC /* TinkoffCalculatorUITests.swift */; };
 		CE2525B62B62CDF1008EEFFC /* TinkoffCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2525B52B62CDF1008EEFFC /* TinkoffCalculatorUITestsLaunchTests.swift */; };
+		CE2525C42B62D021008EEFFC /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2525C32B62D021008EEFFC /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE2525AF2B62CDF1008EEFFC /* TinkoffCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkoffCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2525B32B62CDF1008EEFFC /* TinkoffCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITests.swift; sourceTree = "<group>"; };
 		CE2525B52B62CDF1008EEFFC /* TinkoffCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE2525C32B62D021008EEFFC /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		CE2525912B62CDF0008EEFFC /* TinkoffCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				CE2525C22B62D00E008EEFFC /* Extensions */,
 				CE2525922B62CDF0008EEFFC /* AppDelegate.swift */,
 				CE2525942B62CDF0008EEFFC /* SceneDelegate.swift */,
 				CE2525962B62CDF0008EEFFC /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				CE2525B52B62CDF1008EEFFC /* TinkoffCalculatorUITestsLaunchTests.swift */,
 			);
 			path = TinkoffCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		CE2525C22B62D00E008EEFFC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE2525C32B62D021008EEFFC /* UIButton+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2525972B62CDF0008EEFFC /* ViewController.swift in Sources */,
+				CE2525C42B62D021008EEFFC /* UIButton+Extension.swift in Sources */,
 				CE2525932B62CDF0008EEFFC /* AppDelegate.swift in Sources */,
 				CE2525952B62CDF0008EEFFC /* SceneDelegate.swift in Sources */,
 			);
