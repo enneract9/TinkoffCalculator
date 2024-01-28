@@ -150,7 +150,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ncn-OX-6V4"/>
+                                    <action selector="clearButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="fZB-Ax-qTt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KL-4J-j3Y">
@@ -167,7 +167,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fjj-27-ZwM"/>
+                                    <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="esv-5k-Bux"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIz-gH-hxl">
@@ -218,7 +218,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="REJ-iW-r1n"/>
+                                    <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RJj-Dh-liG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAM-3l-Cy8">
@@ -269,7 +269,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SVL-st-Qtj"/>
+                                    <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wFk-SM-X0C"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yro-T0-KgU">
@@ -286,7 +286,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vnL-0F-hGY"/>
+                                    <action selector="calculateButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bgb-TV-TaG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Gb-6i-ftO">
@@ -303,9 +303,15 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M6c-xx-jtr"/>
+                                    <action selector="operationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qfc-zp-edV"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="111111111" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="jQt-6f-flf">
+                                <rect key="frame" x="0.0" y="217.99999999999997" width="393" height="83.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -326,6 +332,7 @@
                             <constraint firstItem="R7D-zs-RVl" firstAttribute="leading" secondItem="c16-K4-QF8" secondAttribute="trailing" constant="12" id="E78-xA-kTa"/>
                             <constraint firstItem="c16-K4-QF8" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" constant="-9" id="EMQ-En-GpJ"/>
                             <constraint firstItem="PlT-En-phY" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" constant="-9" id="Grn-OD-ezl"/>
+                            <constraint firstItem="jQt-6f-flf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="K3A-VW-jmI"/>
                             <constraint firstItem="FlV-dk-h07" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" constant="-9" id="K7L-an-p94"/>
                             <constraint firstItem="7Gb-6i-ftO" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" constant="-9" id="KD4-83-dRi"/>
                             <constraint firstItem="3KL-4J-j3Y" firstAttribute="leading" secondItem="Hs5-Vh-Oez" secondAttribute="trailing" constant="12" id="MbI-xA-PyU"/>
@@ -350,6 +357,7 @@
                             <constraint firstItem="PlT-En-phY" firstAttribute="leading" secondItem="aIz-gH-hxl" secondAttribute="trailing" constant="12" id="cXk-Tg-YyB"/>
                             <constraint firstItem="3KL-4J-j3Y" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" constant="-9" id="cgo-TZ-WK8"/>
                             <constraint firstItem="6Bo-ts-Xah" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dqp-8u-zvq"/>
+                            <constraint firstItem="jQt-6f-flf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dz5-A2-S39"/>
                             <constraint firstItem="c16-K4-QF8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eZA-6J-zgY"/>
                             <constraint firstItem="T06-C4-pgl" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" constant="-9" id="ejh-nj-Gmv"/>
                             <constraint firstItem="Qde-qS-t1z" firstAttribute="top" secondItem="dUp-tZ-MPI" secondAttribute="bottom" constant="12" id="esa-cM-Zj3"/>
@@ -367,6 +375,7 @@
                             <constraint firstItem="1oo-E6-5QQ" firstAttribute="leading" secondItem="6Bo-ts-Xah" secondAttribute="trailing" constant="12" id="nB6-da-iNY"/>
                             <constraint firstItem="pAM-3l-Cy8" firstAttribute="top" secondItem="aIz-gH-hxl" secondAttribute="bottom" constant="12" id="nFP-r5-VvL"/>
                             <constraint firstItem="7Gb-6i-ftO" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" constant="-9" id="pQr-sm-0IH"/>
+                            <constraint firstItem="7Gb-6i-ftO" firstAttribute="top" secondItem="jQt-6f-flf" secondAttribute="bottom" constant="20" id="pmh-zd-gno"/>
                             <constraint firstItem="T06-C4-pgl" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" constant="-9" id="qu2-E8-0MP"/>
                             <constraint firstItem="Hs5-Vh-Oez" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.25" constant="-9" id="sIu-vS-H4N"/>
                             <constraint firstItem="tfx-M8-HA7" firstAttribute="leading" secondItem="T06-C4-pgl" secondAttribute="trailing" constant="12" id="sKS-Jj-378"/>
@@ -385,10 +394,13 @@
                             <constraint firstItem="1oo-E6-5QQ" firstAttribute="top" secondItem="T06-C4-pgl" secondAttribute="bottom" constant="12" id="zN0-08-8Hi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="jQt-6f-flf" id="d9p-Y5-9Wm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="102" y="4"/>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
